@@ -1,0 +1,233 @@
+{
+  "projectType": "ai-ml",
+  "projectName": "ONNX Runtime",
+  "projectDescription": "Cross-platform, high performance ML inferencing and training accelerator",
+  "theme": "aspen",
+  "primaryColor": "#0078D4",
+  "lightColor": "#50E6FF",
+  "darkColor": "#005A9E",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "installation"
+            ]
+          },
+          {
+            "group": "Core Concepts",
+            "pages": [
+              "concepts/overview",
+              "concepts/onnx-format",
+              "concepts/execution-providers",
+              "concepts/graph-optimizations",
+              "concepts/session-configuration"
+            ]
+          },
+          {
+            "group": "Inference",
+            "pages": [
+              "inference/getting-started",
+              "inference/model-loading",
+              "inference/running-inference",
+              "inference/performance-tuning",
+              "inference/quantization"
+            ]
+          },
+          {
+            "group": "Training",
+            "pages": [
+              "training/overview",
+              "training/on-device-training",
+              "training/ortmodule",
+              "training/optimization"
+            ]
+          },
+          {
+            "group": "Execution Providers",
+            "pages": [
+              "execution-providers/overview",
+              "execution-providers/cpu",
+              "execution-providers/cuda",
+              "execution-providers/tensorrt",
+              "execution-providers/directml",
+              "execution-providers/openvino",
+              "execution-providers/coreml",
+              "execution-providers/webgpu",
+              "execution-providers/custom"
+            ]
+          },
+          {
+            "group": "Model Optimization",
+            "pages": [
+              "optimization/overview",
+              "optimization/quantization",
+              "optimization/graph-optimization",
+              "optimization/memory-optimization",
+              "optimization/mobile"
+            ]
+          },
+          {
+            "group": "Deployment",
+            "pages": [
+              "deployment/platforms",
+              "deployment/cloud",
+              "deployment/edge",
+              "deployment/mobile",
+              "deployment/web"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "Python API",
+            "pages": [
+              "api/python/overview",
+              "api/python/inference-session",
+              "api/python/session-options",
+              "api/python/inference-api",
+              "api/python/training-api",
+              "api/python/quantization",
+              "api/python/transformers"
+            ]
+          },
+          {
+            "group": "C/C++ API",
+            "pages": [
+              "api/c/overview",
+              "api/c/c-api",
+              "api/c/cxx-api",
+              "api/c/session",
+              "api/c/tensor",
+              "api/c/provider"
+            ]
+          },
+          {
+            "group": "C# API",
+            "pages": [
+              "api/csharp/overview",
+              "api/csharp/inference-session",
+              "api/csharp/tensor",
+              "api/csharp/session-options"
+            ]
+          },
+          {
+            "group": "Java API",
+            "pages": [
+              "api/java/overview",
+              "api/java/ort-session",
+              "api/java/ort-environment",
+              "api/java/tensor"
+            ]
+          },
+          {
+            "group": "JavaScript API",
+            "pages": [
+              "api/js/overview",
+              "api/js/inference-session",
+              "api/js/tensor",
+              "api/js/webgpu"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Guides",
+        "groups": [
+          {
+            "group": "Framework Integration",
+            "pages": [
+              "guides/pytorch",
+              "guides/tensorflow",
+              "guides/scikit-learn",
+              "guides/keras",
+              "guides/xgboost"
+            ]
+          },
+          {
+            "group": "Performance",
+            "pages": [
+              "guides/performance/overview",
+              "guides/performance/profiling",
+              "guides/performance/benchmarking",
+              "guides/performance/threading",
+              "guides/performance/memory"
+            ]
+          },
+          {
+            "group": "Advanced Topics",
+            "pages": [
+              "guides/advanced/custom-operators",
+              "guides/advanced/model-serving",
+              "guides/advanced/onnx-format-models",
+              "guides/advanced/reduced-operator-builds",
+              "guides/advanced/memory-patterns"
+            ]
+          },
+          {
+            "group": "Troubleshooting",
+            "pages": [
+              "guides/troubleshooting/faq",
+              "guides/troubleshooting/common-errors",
+              "guides/troubleshooting/debugging",
+              "guides/troubleshooting/performance-issues"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Resources",
+        "groups": [
+          {
+            "group": "Community",
+            "pages": [
+              "resources/contributing",
+              "resources/release-notes",
+              "resources/roadmap",
+              "resources/examples"
+            ]
+          },
+          {
+            "group": "Reference",
+            "pages": [
+              "resources/operators",
+              "resources/supported-models",
+              "resources/versioning",
+              "resources/security"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Cross-platform ML inference and training",
+    "Support for ONNX models from PyTorch, TensorFlow, scikit-learn",
+    "Hardware acceleration via Execution Providers (CUDA, TensorRT, DirectML, etc.)",
+    "Graph optimizations and model quantization",
+    "Multi-language support (Python, C/C++, C#, Java, JavaScript)",
+    "On-device training capabilities",
+    "Mobile and edge deployment support",
+    "Model serving and production deployment"
+  ],
+  "publicApiSurface": [
+    "InferenceSession - Main class for running inference",
+    "SessionOptions - Configuration for inference sessions",
+    "RunOptions - Per-run configuration options",
+    "OrtValue - Tensor and sparse tensor values",
+    "ExecutionProvider - Hardware acceleration backends",
+    "GraphOptimizationLevel - Model optimization settings",
+    "QuantizationConfig - Model quantization options",
+    "TrainingSession - On-device training API",
+    "ORTModule - PyTorch training integration",
+    "ModelQuantizer - Quantization utilities"
+  ]
+}
